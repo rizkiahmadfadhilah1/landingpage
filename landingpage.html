@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="navbar-nav">
+            <h1>Kamar <span>Kita</span></h1>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Service</a>
+        </div>
+
+        <div class="navbar-extra">
+            <button class="login"><i data-feather="user" id="user-icon"></i><p>Login</p></button>
+            <a href="#">register</a>
+        </div>
+    </nav>
+
+     <section>
+          <div class="hero">
+            <div class="row">
+              <div class="column">
+                  <div class="content">
+                    <h2><span>Selamat datang</span><br> di pengalaman menginap yang baru!</h2>
+                    <p> Pesan kamar impian Anda dengan mudah dan nikmati pengalaman menginap yang tak terlupakan. <br> Support By <a href="https://skilvul.com/">skilvul.com</a></p>
+                    <button class="start">Mulai</button>
+                  </div>
+              </div>
+              <div class="column">
+                <img src="img/Hero.png" alt="Gambar Anda">
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+          <section>
+            <div class="intro">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <img src="img/intro.jpg" alt="">
+                    </div>
+                    <div class="col">
+                        <div class="kata">
+                        <h1>Kamar <span>Kita</span></h1><br>
+                        <p class="p1">Destinasi menginap terbaik untuk perjalanan Anda! Kami menghadirkan pengalaman menginap yang tak terlupakan </p>
+                        <br>
+                        <h3>Kamar Kita dirancang untuk memberikan kenyamanan maksimal.</h3>
+                        <br>
+                        <p class="p2">Setiap hotel kami dilengkapi dengan tempat tidur yang nyaman, perlengkapan kamar mandi mewah, serta fasilitas yang lainnya.</p>
+                        <br>
+                        <button class="btn-intro">Selengkapnya</button>
+                    </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+          </section>
+
+          <section class="container-form">
+            <div class="cari">
+                <nav class="navbar1">
+                    <div class="navbar-nav1">
+                        <a href="#">Hotel</a>
+                        <a href="#">Homestay</a>
+                        <a href="#">Villa</a>
+                    </div>
+                </nav>
+                <div class="container"></div>
+                <div class="search">
+
+                <div class="search-form">
+                    <input type="search" id="search-box" placeholder="Cari Disini ...">
+                    <button class="btn-cari">Search</button>
+                </div>
+
+                  <div class="kalender">
+                    <div class="row">
+                    <div class="form">
+                        <div class="chack-in">
+                        <h4>Check In</h4>
+                        <input type="date" id="checkInDate">
+                    </div>
+                    <div class="chack-out">
+                        <h4>Check Out</h4>
+                        <input type="date" id="checkOutDate">
+                    </div>
+                    <div class="tamu">
+                        <label for="Jumlah-tamu">Jumlah Tamu :</label>
+                            <select id="jumlahTamu" name="tamu" class="jumlah-tamu">
+                                <option value="" disabled selected hidden>Masukan Jumlah Tamu...</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+          </section>
+
+
+                <section>
+                    <div class="container">
+                    <h1 class="rekomendasi-h1">Rekomendasi Hotel</h1>
+                <div class="wrapper">
+                    <div class="card">
+                        <div class="gambar"><img src="img/hotel1.jpg" alt="hotel11"></div>
+                        <div class="details">
+                            <h1>Hotel Melati</h1>
+                            <p>Kami menawarkan pengalaman menginap yang menyenangkan dengan harga yang ramah di kantong.</p>
+                            
+                            <div class="rating">
+                                <i data-feather="star"></i>
+                                <i data-feather="star"></i>
+                                <i data-feather="star"></i>
+                                <i data-feather="star"></i>
+                                <i data-feather="star"></i>
+                                <span>4.2/5</span>
+                            </div>
+                            <div class="tags">
+                                <span class="tag">Bekasi</span>
+                                <span class="tag">Tambun</span>
+                                <span class="tag">Mangun jaya</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="gambar"><img src="img/hotel2.jpg" alt="hotel2"></div>
+                        <div class="details">
+                            <h1>Hotel Mawar</h1>
+                            <p>Hotel Mawar adalah destinasi istimewa untuk perjalanan Anda. Dengan pemandangan indah dan layanan berkualitas tinggi.</p>
+                            <div class="rating">
+                                <i data-feather="star"></i>
+                                <i data-feather="star"></i>
+                                <i data-feather="star"></i>
+                                <i data-feather="star"></i>
+                                <i data-feather="star"></i>
+                                <span>4.2/5</span>
+                            </div>
+                            <div class="tags">
+                                <span class="tag">Bekasi</span>
+                                <span class="tag">Tambun</span>
+                                <span class="tag">Mangun jaya</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="gambar"><img src="img/hotel3.jpg" alt="hotel3"></div>
+                        <div class="details">
+                            <h1>monoloog Hotel</h1>
+                            <p>Nikmati kamar bersih dan nyaman, serta layanan ramah dari staf kami.</p>
+                            <div class="rating">
+                                <i data-feather="star"></i>
+                                <i data-feather="star"></i>
+                                <i data-feather="star"></i>
+                                <i data-feather="star"></i>
+                                <i data-feather="star"></i>
+                                <span>4.2/5</span>
+                            </div>
+                            <div class="tags">
+                                <span class="tag">Bekasi</span>
+                                <span class="tag">Tambun</span>
+                                <span class="tag">Mangun jaya</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="gambar"><img src="img/hotel4.jpg" alt="hotel3"></div>
+                        <div class="details">
+                            <h1>Hotel Amaris</h1>
+                            <p> Kami adalah pilihan terbaik untuk perjalanan bisnis, liburan keluarga, atau perjalanan romantis Anda.</p>
+                            <div class="rating">
+                                <i data-feather="star"></i>
+                                <i data-feather="star"></i>
+                                <i data-feather="star"></i>
+                                <i data-feather="star"></i>
+                                <i data-feather="star"></i>
+                                <span>4.2/5</span>
+                            </div>
+                            <div class="tags">
+                                <span class="tag">Bekasi</span>
+                                <span class="tag">Tambun</span>
+                                <span class="tag">Mangun jaya</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="gambar"><img src="img/hotel5.jpg" alt="hotel3"></div>
+                        <div class="details">
+                            <h1>Hotel Santika</h1>
+                            <p>Kami menawarkan pengalaman menginap yang luar biasa di tengah kota yang sibuk.</p>
+                            <div class="rating">
+                                <i data-feather="star"></i>
+                                <i data-feather="star"></i>
+                                <i data-feather="star"></i>
+                                <i data-feather="star"></i>
+                                <i data-feather="star"></i>
+                                <span>4.2/5</span>
+                            </div>
+                            <div class="tags">
+                                <span class="tag">Bekasi</span>
+                                <span class="tag">Tambun</span>
+                                <span class="tag">Mangun jaya</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="gambar"><img src="img/hotel6.jpg" alt="hotel3"></div>
+                        <div class="details">
+                            <h1>Hotel Marapi</h1>
+                            <p>Tempat yang Sempurna untuk Menikmati Liburan Anda</p>
+                            <div class="rating">
+                                <i data-feather="star"></i>
+                                <i data-feather="star"></i>
+                                <i data-feather="star"></i>
+                                <i data-feather="star"></i>
+                                <i data-feather="star"></i>
+                                <span>4.2/5</span>
+                            </div>
+                            <div class="tags">
+                                <span class="tag">Bekasi</span>
+                                <span class="tag">Tambun</span>
+                                <span class="tag">Mangun jaya</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+
+            <form id="myForm">
+                <h1>Hubungi kami kebutuhan anda.</h1>
+          
+                <div class="form-group">
+                  <div class="input-group">
+                    <label for="name">Name</label>
+                    <input 
+                      id="name"
+                      type="text" 
+                      placeholder=" Masukan nama anda " 
+                    />
+                  </div>
+          
+                  <div class="input-group">
+                    <label for="city">City</label>
+                    <input 
+                      id="city" 
+                      type="text" 
+                      placeholder=" Masukan kota anda " 
+                    >
+                  </div>
+          
+                  <div class="input-group">
+                    <label for="email">Email</label>
+                    <input
+                      id="email" 
+                      type="text"
+                      placeholder=" Masukan email anda "
+                    />
+                  </div>
+          
+                  <div class="input-group">
+                    <label for="zip-code">Zip-Code</label>
+                    <input
+                      id="zip-code"
+                      type="number"
+                      placeholder=" Masukan Zip-Code anda"
+                    />
+                  </div>
+                </div>
+          
+                <div class="checkbox">
+                  <label id="check">
+                    Dengan ini saya menyatakan data yang diisi pada form ini adalah benar
+                    dan telah sesuai
+                  </label
+                  ><br /><br />
+                  <input 
+                    id="status" 
+                    type="checkbox" 
+                  /> Saya Setuju
+                </div>
+          
+                <button id="submit" type="submit">Submit</button>
+          
+                <div id="warning"></div>
+              </form>
+
+              <footer>
+                <div class="footer-content">
+                    <h3>Rizki Ahmad Fadhilah FS 5 UMKM</h3>
+                </div>
+                
+            </footer>
+              
+
+    <!-- icon -->
+    <script>
+        feather.replace();
+      </script>
+
+      <script src="js/script.js"></script>
+</body>
+</html>
